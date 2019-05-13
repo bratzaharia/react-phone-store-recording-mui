@@ -9,7 +9,7 @@ export default function CartItem({ item, value }) {
     <div style={{ border: ".3px solid #000", textAlign: "center" }}>
       <div>Titlu: {title}</div>
 
-      <img src={img} style={{ width: "40%" }} />
+      <img src={img} style={{ width: "40%" }} alt="product"/>
       <div>Pret: &euro; {price}</div>
       <div>
         <button onClick={() => decrement(id)}>-</button>
